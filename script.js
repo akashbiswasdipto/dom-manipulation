@@ -29,3 +29,10 @@ function redirectToGoogle(){
     window.location.assign('http://google.com')
 }
 /* Task 4 using jQuery */
+
+//task4a
+
+$('#addText4').click(function(event){
+    var paragraph= $('<p>').text('Hello World')
+    $('#task4a').append(paragraph)
+})
